@@ -1,0 +1,23 @@
+{
+  "name": "neositemprovider",
+  "version": "1.0.0",
+  "description": "NeosItemProvider",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rassi0429/NeosItemProvider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rassi0429/NeosItemProvider/issues"
+  },
+  "homepage": "https://github.com/rassi0429/NeosItemProvider#readme",
+  "dependencies": {
+    "@bombitmanbomb/neosjs": "^1.15.2",
+    "express": "^4.17.1"
+  }
+}
