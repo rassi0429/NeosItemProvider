@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  node:
+    build: .
+    init: true
+    restart: on-failure:3
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      - NEOS_ID=YOUR_ID_IS_HERE
+      - NEOS_PASS=YOUR_PASS_IS_HERE
